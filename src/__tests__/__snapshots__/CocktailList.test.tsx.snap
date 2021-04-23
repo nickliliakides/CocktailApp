@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CocktailList /> should matches its snapshot 1`] = `
+<div
+  className="list-container"
+>
+  <ul>
+    <CocktailItem
+      cocktail={
+        Object {
+          "id": "1",
+          "img": "/testurl1",
+          "ingredients": Array [
+            "teat ingredient 1",
+            " 1/2 test ingr",
+          ],
+          "instructions": "test instructions 1",
+          "name": "test Name 1",
+        }
+      }
+      key="1"
+    />
+    <CocktailItem
+      cocktail={
+        Object {
+          "id": "2",
+          "img": "/testurl2",
+          "ingredients": Array [
+            "teat ingredient 2",
+            " 1/2 test ingr",
+          ],
+          "instructions": "test instructions 2",
+          "name": "test Name 2",
+        }
+      }
+      key="2"
+    />
+    <CocktailItem
+      cocktail={
+        Object {
+          "id": "3",
+          "img": "/testurl3",
+          "ingredients": Array [
+            "teat ingredient 3",
+            " 1/2 test ingr",
+          ],
+          "instructions": "test instructions 3",
+          "name": "test Name 3",
+        }
+      }
+      key="3"
+    />
+  </ul>
+</div>
+`;

@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CocktailItem  /> should matches its snapshot 1`] = `
+<li
+  className="cocktail-item"
+>
+  <div
+    className="cocktail-image"
+  >
+    <img
+      alt="test Name 1"
+      src="/testurl1"
+      width={128}
+    />
+  </div>
+  <div
+    className="cocktail-details w-100 p-3 d-flex flex-column"
+  >
+    <h1
+      className="text-center"
+    >
+      test Name 1
+    </h1>
+    <div
+      className="d-flex"
+    >
+      <div
+        className="instructions"
+      >
+        <p>
+          Instructions:
+        </p>
+        <p>
+          test instructions 1
+        </p>
+      </div>
+      <div
+        className="ingredients"
+      >
+        <p>
+          Ingredients:
+        </p>
+        <ul>
+          <li
+            className="ingredient-item"
+            key="0"
+          >
+            <svg
+              className="ingredient-icon"
+            >
+              <use
+                href="img/icons.svg#icon-check"
+              />
+            </svg>
+            <p>
+              teat ingredient 1
+            </p>
+          </li>
+          <li
+            className="ingredient-item"
+            key="1"
+          >
+            <svg
+              className="ingredient-icon"
+            >
+              <use
+                href="img/icons.svg#icon-check"
+              />
+            </svg>
+            <p>
+               1/2 test ingr
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`<CocktailList /> should matches its snapshot 1`] = `
+<div
+  className="list-container"
+>
+  <ul>
+    <CocktailItem
+      cocktail={
+        Object {
+          "id": "1",
+          "img": "/testurl1",
+          "ingredients": Array [
+            "teat ingredient 1",
+            " 1/2 test ingr",
+          ],
+          "instructions": "test instructions 1",
+          "name": "test Name 1",
+        }
+      }
+      key="1"
+    />
+    <CocktailItem
+      cocktail={
+        Object {
+          "id": "2",
+          "img": "/testurl2",
+          "ingredients": Array [
+            "teat ingredient 2",
+            " 1/2 test ingr",
+          ],
+          "instructions": "test instructions 2",
+          "name": "test Name 2",
+        }
+      }
+      key="2"
+    />
+    <CocktailItem
+      cocktail={
+        Object {
+          "id": "3",
+          "img": "/testurl3",
+          "ingredients": Array [
+            "teat ingredient 3",
+            " 1/2 test ingr",
+          ],
+          "instructions": "test instructions 3",
+          "name": "test Name 3",
+        }
+      }
+      key="3"
+    />
+  </ul>
+</div>
+`;

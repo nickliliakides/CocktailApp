@@ -1,0 +1,28 @@
+.loader {
+  margin: auto;
+  text-align: center;
+
+  svg {
+    height: 6.5rem;
+    width: 6.5rem;
+    fill: #5e9caf;
+    transform-origin: 50% 50%;
+    margin-top: 35vh;
+    animation: rotate 1.5s infinite linear;
+  }
+}
+
+.loading {
+  text-align: center;
+  margin: auto;
+  font-size: 1.8rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> component should matches its snapshot 1`] = `
+<form
+  className="form"
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="search"
+    >
+      Find a cocktail by name
+    </label>
+    <div
+      className="search"
+    >
+      <input
+        className="form-control"
+        id="search"
+        name="search"
+        onChange={[MockFunction]}
+        placeholder="Please enter a cocktail name..."
+        type="search"
+      />
+      <button
+        className="btn btn-primary btn-lg"
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+</form>
+`;

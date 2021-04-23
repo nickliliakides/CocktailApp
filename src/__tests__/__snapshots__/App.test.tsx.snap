@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should matches its snapshot 1`] = `
+<Fragment>
+  <Search
+    handleChange={[Function]}
+    handleSubmit={[Function]}
+  />
+  <CocktailList
+    cocktails={Array []}
+    loading={false}
+  />
+</Fragment>
+`;
