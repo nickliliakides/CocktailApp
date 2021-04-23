@@ -12,7 +12,7 @@ interface IProps {
 const CocktailList: FC<IProps> = ({ cocktails, loading }): JSX.Element => {
   return loading ? (
     <Loader />
-  ) : (
+  ) : cocktails.length ? (
     <div className='list-container'>
       <ul>
         {cocktails &&
@@ -21,7 +21,7 @@ const CocktailList: FC<IProps> = ({ cocktails, loading }): JSX.Element => {
           ))}
       </ul>
     </div>
-  );
+  ) : <div style={{ fontSize: '3rem'}} className='text-center'>There are no results to display!</div>;
 };
 
 export default CocktailList;

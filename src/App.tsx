@@ -39,7 +39,6 @@ const App: FC = (): JSX.Element => {
           };
         });
         setCocktails(cocktails);
-        setLoading(false);
       } else setCocktails([]);
     } catch (error) {
       alert(
@@ -49,8 +48,10 @@ const App: FC = (): JSX.Element => {
             : 'Something went wrong!'
         }`
       );
-      setLoading(false);
     }
+    setTimeout(() => {
+      setLoading(false);
+    }, 700)
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
